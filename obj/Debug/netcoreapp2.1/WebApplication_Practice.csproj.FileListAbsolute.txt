@@ -8,7 +8,6 @@
 \\sit.inet\sit\home\Students\2019000224\IT605_Web_Applications\WebApplication_Practice\bin\Debug\netcoreapp2.1\WebApplication_Practice.pdb
 \\sit.inet\sit\home\Students\2019000224\IT605_Web_Applications\WebApplication_Practice\bin\Debug\netcoreapp2.1\WebApplication_Practice.Views.dll
 \\sit.inet\sit\home\Students\2019000224\IT605_Web_Applications\WebApplication_Practice\bin\Debug\netcoreapp2.1\WebApplication_Practice.Views.pdb
-\\sit.inet\sit\home\Students\2019000224\IT605_Web_Applications\WebApplication_Practice\obj\Debug\netcoreapp2.1\WebApplication_Practice.csprojAssemblyReference.cache
 \\sit.inet\sit\home\Students\2019000224\IT605_Web_Applications\WebApplication_Practice\obj\Debug\netcoreapp2.1\WebApplication_Practice.RazorAssemblyInfo.cache
 \\sit.inet\sit\home\Students\2019000224\IT605_Web_Applications\WebApplication_Practice\obj\Debug\netcoreapp2.1\WebApplication_Practice.RazorAssemblyInfo.cs
 \\sit.inet\sit\home\Students\2019000224\IT605_Web_Applications\WebApplication_Practice\obj\Debug\netcoreapp2.1\WebApplication_Practice.AssemblyInfoInputs.cache

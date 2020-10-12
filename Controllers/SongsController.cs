@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using WebApplication_Practice.Data;
 using WebApplication_Practice.Models;
 using System.IO;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApplication_Practice.Controllers
 {
@@ -47,6 +48,7 @@ namespace WebApplication_Practice.Controllers
         }
 
         // GET: Songs/Create
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             ViewData["MyAlbumID"] = new SelectList(_context.Album, "AlbumID", "Title");
@@ -73,6 +75,7 @@ namespace WebApplication_Practice.Controllers
         }
 
         // GET: Songs/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -126,6 +129,7 @@ namespace WebApplication_Practice.Controllers
         }
 
         // GET: Songs/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
