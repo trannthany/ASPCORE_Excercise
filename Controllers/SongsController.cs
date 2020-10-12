@@ -22,10 +22,17 @@ namespace WebApplication_Practice.Controllers
         }
 
         // GET: Songs
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            var applicationDbContext = _context.Song.Include(s => s.MyAlbum);
-            return View(await applicationDbContext.ToListAsync());
+            var songs = from s in _context.Song select s;
+            if (!String.IsNullOrEmpty(searchString)) 
+            {
+                songs = songs.Where(m => m.Title.Contains(searchString));
+            }
+
+            //var applicationDbContext = _context.Song.Include(s => s.MyAlbum);
+            //// return View(await applicationDbContext.ToListAsync());
+            return View(await songs.ToListAsync());
         }
 
         // GET: Songs/Details/5

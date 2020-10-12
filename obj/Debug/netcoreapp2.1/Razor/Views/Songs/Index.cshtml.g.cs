@@ -75,7 +75,7 @@ using WebApplication_Practice.Models;
             WriteLiteral("        ");
             EndContext();
             BeginContext(174, 37, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5b6a227680d24e87bfcd488f610dd242", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9b8bb691fe304bab9b0e244496182881", async() => {
                 BeginContext(197, 10, true);
                 WriteLiteral("Create New");
                 EndContext();
@@ -216,7 +216,7 @@ WriteAttributeValue("", 1151, item.SongUrl, 1151, 13, false);
             WriteLiteral("                    ");
             EndContext();
             BeginContext(1362, 57, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "511f2f6e2c754ce28758f31f34b65d12", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "686c43dac93c40e0809b4682e5dd7b03", async() => {
                 BeginContext(1411, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -251,7 +251,7 @@ WriteAttributeValue("", 1151, item.SongUrl, 1151, 13, false);
             WriteLiteral("\r\n                    <span>|</span>\r\n                    ");
             EndContext();
             BeginContext(1477, 65, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e3b85e24ec4d4407bb34050b310d5bba", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "83e8fa60820b4d5288c116a78c824f51", async() => {
                 BeginContext(1529, 9, true);
                 WriteLiteral(" Details ");
                 EndContext();
@@ -286,7 +286,7 @@ WriteAttributeValue("", 1151, item.SongUrl, 1151, 13, false);
             WriteLiteral("\r\n                    <span>|</span>\r\n                    ");
             EndContext();
             BeginContext(1600, 63, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4e05cb8920a1474d9e9834fd8c02957f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "54028d7764f348d39243559eda75215f", async() => {
                 BeginContext(1651, 8, true);
                 WriteLiteral(" Delete ");
                 EndContext();
@@ -331,7 +331,7 @@ WriteAttributeValue("", 1151, item.SongUrl, 1151, 13, false);
             WriteLiteral("                    ");
             EndContext();
             BeginContext(1747, 65, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b1e47f89dd0d4d93b28ec0566ff55929", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1fec9eceed6645b09b319095a1fd9d63", async() => {
                 BeginContext(1799, 9, true);
                 WriteLiteral(" Details ");
                 EndContext();
